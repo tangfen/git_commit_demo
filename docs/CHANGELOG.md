@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/tangfen/git_commit_demo/compare/v1.0.0...v1.1.0) (2019-11-12)
+
+
+### Features
+
+* add Ci ([dee9cf0](https://github.com/tangfen/git_commit_demo/commit/dee9cf0cb1bf40bfecc9a59b6e32969d15330988))
+* add commitlint ([a2ef5ee](https://github.com/tangfen/git_commit_demo/commit/a2ef5ee99707e58b9e2f408fe7225a2cca464f80))
+* add semantic-release ([3a28ebd](https://github.com/tangfen/git_commit_demo/commit/3a28ebdfe7ddfdac71f778c0df9eef090abbbff4))
+* add standard-version ([5817e62](https://github.com/tangfen/git_commit_demo/commit/5817e62edd3940dbd68e728357bc7fb2e2cf9155))
+* update semantic-release ([a0c0717](https://github.com/tangfen/git_commit_demo/commit/a0c0717bb11e324a370725a4dba28a05f5a0075f))
+* **add commitizen:** add commitizen ([aa209a1](https://github.com/tangfen/git_commit_demo/commit/aa209a1edf168505e132ced607363691ecd426aa))
+
 # 1.0.0 (2019-11-08)
 
 
