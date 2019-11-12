@@ -25,12 +25,20 @@
   },
   "homepage": "https://github.com/tangfen/git_commit_demo#readme",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^4.0.0-beta.5"
   },
-  "config":{
-    "commitizen":{
-      "path":"cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky":{
+    "hooks":{
+      "commit-msg":"commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
