@@ -1,16 +1,17 @@
 {
   "name": "git_commit_demo",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "commitizen,commitlint,semantic-release",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "changelog": "standard-version"
+    "changelog": "standard-version",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tangfen/git_commit_demo.git"
+    "url": "https://github.com/tangfen/git_commit_demo.git"
   },
   "keywords": [
     "git",
@@ -28,9 +29,12 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/git": "^7.0.18",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^4.0.0-beta.5",
+    "semantic-release": "^15.13.30",
     "standard-version": "^7.0.0"
   },
   "config": {
