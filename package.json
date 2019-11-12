@@ -4,7 +4,8 @@
   "description": "commitizen,commitlint,semantic-release",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/tangfen/git_commit_demo/issues"
   },
-  "homepage": "https://github.com/tangfen/git_commit_demo#readme"
+  "homepage": "https://github.com/tangfen/git_commit_demo#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config":{
+    "commitizen":{
+      "path":"cz-conventional-changelog"
+    }
+  }
 }
