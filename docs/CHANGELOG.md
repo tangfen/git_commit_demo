@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/tangfen/git_commit_demo/compare/v1.1.0...v1.2.0) (2019-11-17)
+
+
+### Features
+
+* 添加hooks ([6d9ce48](https://github.com/tangfen/git_commit_demo/commit/6d9ce4800ff25bdb0f5d359bb8c3ce460b3b0409))
+
 # [1.1.0](https://github.com/tangfen/git_commit_demo/compare/v1.0.0...v1.1.0) (2019-11-12)
 
 
