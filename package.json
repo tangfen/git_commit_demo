@@ -1,6 +1,6 @@
 {
   "name": "git_commit_demo",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "commitizen,commitlint,semantic-release",
   "main": "src/index.js",
   "scripts": {
@@ -48,4 +48,3 @@
     }
   }
 }
-

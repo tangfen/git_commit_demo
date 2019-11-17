@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/tangfen/git_commit_demo/compare/v1.2.0...v1.3.0) (2019-11-17)
+
+
+### Features
+
+* 测试rebase ([a065a7b](https://github.com/tangfen/git_commit_demo/commit/a065a7b6dea90ec13ca5a4bced1c8493644f654d))
+
 # [1.2.0](https://github.com/tangfen/git_commit_demo/compare/v1.1.0...v1.2.0) (2019-11-17)
 
 
